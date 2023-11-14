@@ -247,7 +247,3 @@ def behaviour_subset(binary, n):
         subset[start:stop] = 1
 
     return subset
-
-
-
-
