@@ -10,7 +10,7 @@ from scipy.stats import rankdata, chi2_contingency, chisquare
 from scipy.interpolate import interp1d
 from pprint import pprint
 import warnings
-from Utils import concat_dicts
+from .Utils import concat_dicts
 
 def predicted_prob(Ra, Rb):
 

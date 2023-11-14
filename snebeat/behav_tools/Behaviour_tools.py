@@ -3,11 +3,6 @@ import pandas as pd
 import matplotlib as mpl
 from scipy.interpolate import interp1d
 
-font = {'family': 'Helvetica',
-        'weight': 'normal',
-        'size': 16}
-
-mpl.rc('font', **font)
 
 def preprocess_behaviour(path, inscopix_len=None):
     """

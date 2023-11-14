@@ -6,6 +6,8 @@ from sklearn.linear_model import LogisticRegression
 
 import scipy.stats as stats
 
+from .Utils import make_design_matrix
+
 from warnings import warn
 import warnings
 

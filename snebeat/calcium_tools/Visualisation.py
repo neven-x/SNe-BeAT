@@ -2,6 +2,11 @@ import numpy as np
 from matplotlib import pyplot as plt
 from matplotlib.colors import TwoSlopeNorm
 
+font = {'family': 'Helvetica',
+        'weight': 'normal',
+        'size': 16}
+
+mpl.rc('font', **font)
 
 def tuning_barplot(tuning_scores, color='C0', ax=None):
     if ax is None:
